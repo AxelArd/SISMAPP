@@ -2,17 +2,19 @@
 //  AppDelegate.m
 //  SISMAPP
 //
-//  Created by Axel on 06/02/14.
+//  Created by Axel on 06/01/14.
 //  Copyright (c) 2014 axelardoin. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import <GoogleMaps/GoogleMaps.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [GMSServices provideAPIKey:@"AIzaSyBxuJ6depq5BvUSOHUSdBkw3RLubbWdJB0"];
     return YES;
 }
 							

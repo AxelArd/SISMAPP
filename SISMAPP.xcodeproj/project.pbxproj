@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77059BD518C3B01500925796 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77059BD418C3B01500925796 /* GoogleMaps.framework */; };
+		77059BD718C3B04700925796 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77059BD618C3B04700925796 /* GoogleMaps.bundle */; };
+		77059BD918C3B06A00925796 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77059BD818C3B06A00925796 /* CoreData.framework */; };
+		77059BDB18C3B08100925796 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77059BDA18C3B08100925796 /* CoreText.framework */; };
+		77059BDD18C3B08A00925796 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77059BDC18C3B08A00925796 /* GLKit.framework */; };
+		77059BDF18C3B09300925796 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77059BDE18C3B09300925796 /* ImageIO.framework */; };
+		77059BE118C3B0A100925796 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77059BE018C3B0A100925796 /* libc++.dylib */; };
+		77059BE318C3B0AA00925796 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77059BE218C3B0AA00925796 /* libicucore.dylib */; };
+		77059BE518C3B0B400925796 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77059BE418C3B0B400925796 /* libz.dylib */; };
+		77059BE718C3B0BC00925796 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77059BE618C3B0BC00925796 /* OpenGLES.framework */; };
+		77059BE918C3B0C400925796 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77059BE818C3B0C400925796 /* QuartzCore.framework */; };
+		77059BEB18C3B0CF00925796 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77059BEA18C3B0CF00925796 /* SystemConfiguration.framework */; };
+		77059BEE18C3B8F300925796 /* peer.png in Resources */ = {isa = PBXBuildFile; fileRef = 77059BED18C3B8F300925796 /* peer.png */; };
+		77059BF018C3B96F00925796 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 77059BEF18C3B96F00925796 /* user.png */; };
+		773EAEE518A69F1500F9193C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773EAEE418A69F1500F9193C /* AVFoundation.framework */; };
+		773EAEE718A6AC4C00F9193C /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 773EAEE618A6AC4C00F9193C /* sounds */; };
+		773EAEEB18A6B9BB00F9193C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773EAEEA18A6B9BB00F9193C /* CoreLocation.framework */; };
+		77A7AFC118AA180D002ED61E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A7AFC018AA180C002ED61E /* GameKit.framework */; };
+		77A7AFC418ABB519002ED61E /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A7AFC318ABB519002ED61E /* ChatViewController.m */; };
 		77B6551118A3C2970007C71A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B6551018A3C2970007C71A /* Foundation.framework */; };
 		77B6551318A3C2970007C71A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B6551218A3C2970007C71A /* CoreGraphics.framework */; };
 		77B6551518A3C2970007C71A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B6551418A3C2970007C71A /* UIKit.framework */; };
@@ -14,13 +33,16 @@
 		77B6551D18A3C2970007C71A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6551C18A3C2970007C71A /* main.m */; };
 		77B6552118A3C2970007C71A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6552018A3C2970007C71A /* AppDelegate.m */; };
 		77B6552418A3C2970007C71A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B6552218A3C2970007C71A /* Main.storyboard */; };
-		77B6552718A3C2970007C71A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6552618A3C2970007C71A /* ViewController.m */; };
 		77B6552918A3C2970007C71A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B6552818A3C2970007C71A /* Images.xcassets */; };
 		77B6553018A3C2970007C71A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B6552F18A3C2970007C71A /* XCTest.framework */; };
 		77B6553118A3C2970007C71A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B6551018A3C2970007C71A /* Foundation.framework */; };
 		77B6553218A3C2970007C71A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B6551418A3C2970007C71A /* UIKit.framework */; };
 		77B6553A18A3C2970007C71A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77B6553818A3C2970007C71A /* InfoPlist.strings */; };
 		77B6553C18A3C2970007C71A /* SISMAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6553B18A3C2970007C71A /* SISMAPPTests.m */; };
+		77B6554618A3C5AF0007C71A /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B6554518A3C5AF0007C71A /* MultipeerConnectivity.framework */; };
+		77B6554918A3FD7B0007C71A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6554818A3FD7B0007C71A /* MainViewController.m */; };
+		77B6554C18A4E9A60007C71A /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6554B18A4E9A60007C71A /* BrowserViewController.m */; };
+		77B6554F18A4E9B90007C71A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6554E18A4E9B90007C71A /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77059BD418C3B01500925796 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		77059BD618C3B04700925796 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		77059BD818C3B06A00925796 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		77059BDA18C3B08100925796 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		77059BDC18C3B08A00925796 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		77059BDE18C3B09300925796 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		77059BE018C3B0A100925796 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		77059BE218C3B0AA00925796 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		77059BE418C3B0B400925796 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		77059BE618C3B0BC00925796 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		77059BE818C3B0C400925796 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		77059BEA18C3B0CF00925796 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		77059BED18C3B8F300925796 /* peer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peer.png; sourceTree = "<group>"; };
+		77059BEF18C3B96F00925796 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		773EAEE418A69F1500F9193C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		773EAEE618A6AC4C00F9193C /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
+		773EAEEA18A6B9BB00F9193C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		77A7AFBE18A979C6002ED61E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		77A7AFC018AA180C002ED61E /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		77A7AFC218ABB519002ED61E /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		77A7AFC318ABB519002ED61E /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		77B6550D18A3C2970007C71A /* SISMAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SISMAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B6551018A3C2970007C71A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		77B6551218A3C2970007C71A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +88,19 @@
 		77B6551F18A3C2970007C71A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77B6552018A3C2970007C71A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		77B6552318A3C2970007C71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		77B6552518A3C2970007C71A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77B6552618A3C2970007C71A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		77B6552818A3C2970007C71A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		77B6552E18A3C2970007C71A /* SISMAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SISMAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B6552F18A3C2970007C71A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		77B6553718A3C2970007C71A /* SISMAPPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SISMAPPTests-Info.plist"; sourceTree = "<group>"; };
 		77B6553918A3C2970007C71A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77B6553B18A3C2970007C71A /* SISMAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SISMAPPTests.m; sourceTree = "<group>"; };
+		77B6554518A3C5AF0007C71A /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		77B6554718A3FD7B0007C71A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		77B6554818A3FD7B0007C71A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		77B6554A18A4E9A60007C71A /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		77B6554B18A4E9A60007C71A /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		77B6554D18A4E9B90007C71A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
+		77B6554E18A4E9B90007C71A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +108,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77059BEB18C3B0CF00925796 /* SystemConfiguration.framework in Frameworks */,
+				77059BE918C3B0C400925796 /* QuartzCore.framework in Frameworks */,
+				77059BE718C3B0BC00925796 /* OpenGLES.framework in Frameworks */,
+				77059BE518C3B0B400925796 /* libz.dylib in Frameworks */,
+				77059BE318C3B0AA00925796 /* libicucore.dylib in Frameworks */,
+				77059BE118C3B0A100925796 /* libc++.dylib in Frameworks */,
+				77059BDF18C3B09300925796 /* ImageIO.framework in Frameworks */,
+				77059BDD18C3B08A00925796 /* GLKit.framework in Frameworks */,
+				77059BDB18C3B08100925796 /* CoreText.framework in Frameworks */,
+				773EAEEB18A6B9BB00F9193C /* CoreLocation.framework in Frameworks */,
+				77059BD918C3B06A00925796 /* CoreData.framework in Frameworks */,
+				77A7AFC118AA180D002ED61E /* GameKit.framework in Frameworks */,
+				773EAEE518A69F1500F9193C /* AVFoundation.framework in Frameworks */,
+				77B6554618A3C5AF0007C71A /* MultipeerConnectivity.framework in Frameworks */,
 				77B6551318A3C2970007C71A /* CoreGraphics.framework in Frameworks */,
 				77B6551518A3C2970007C71A /* UIKit.framework in Frameworks */,
+				77059BD518C3B01500925796 /* GoogleMaps.framework in Frameworks */,
 				77B6551118A3C2970007C71A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,9 +142,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77059BEC18C3B8E100925796 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				77059BEF18C3B96F00925796 /* user.png */,
+				77059BED18C3B8F300925796 /* peer.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		773EAEEE18A6D90900F9193C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		77B6550418A3C2960007C71A = {
 			isa = PBXGroup;
 			children = (
+				77059BEC18C3B8E100925796 /* images */,
+				773EAEE618A6AC4C00F9193C /* sounds */,
 				77B6551618A3C2970007C71A /* SISMAPP */,
 				77B6553518A3C2970007C71A /* SISMAPPTests */,
 				77B6550F18A3C2970007C71A /* Frameworks */,
@@ -101,6 +182,23 @@
 		77B6550F18A3C2970007C71A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				77059BEA18C3B0CF00925796 /* SystemConfiguration.framework */,
+				77059BE818C3B0C400925796 /* QuartzCore.framework */,
+				77059BE618C3B0BC00925796 /* OpenGLES.framework */,
+				77059BE418C3B0B400925796 /* libz.dylib */,
+				77059BE218C3B0AA00925796 /* libicucore.dylib */,
+				77059BE018C3B0A100925796 /* libc++.dylib */,
+				77059BDE18C3B09300925796 /* ImageIO.framework */,
+				77059BDC18C3B08A00925796 /* GLKit.framework */,
+				77059BDA18C3B08100925796 /* CoreText.framework */,
+				77059BD818C3B06A00925796 /* CoreData.framework */,
+				77059BD618C3B04700925796 /* GoogleMaps.bundle */,
+				77059BD418C3B01500925796 /* GoogleMaps.framework */,
+				77A7AFC018AA180C002ED61E /* GameKit.framework */,
+				77A7AFBE18A979C6002ED61E /* CoreBluetooth.framework */,
+				773EAEEA18A6B9BB00F9193C /* CoreLocation.framework */,
+				773EAEE418A69F1500F9193C /* AVFoundation.framework */,
+				77B6554518A3C5AF0007C71A /* MultipeerConnectivity.framework */,
 				77B6551018A3C2970007C71A /* Foundation.framework */,
 				77B6551218A3C2970007C71A /* CoreGraphics.framework */,
 				77B6551418A3C2970007C71A /* UIKit.framework */,
@@ -112,13 +210,20 @@
 		77B6551618A3C2970007C71A /* SISMAPP */ = {
 			isa = PBXGroup;
 			children = (
+				77B6554D18A4E9B90007C71A /* MapViewController.h */,
+				77B6554E18A4E9B90007C71A /* MapViewController.m */,
+				773EAEEE18A6D90900F9193C /* iPad */,
 				77B6551F18A3C2970007C71A /* AppDelegate.h */,
 				77B6552018A3C2970007C71A /* AppDelegate.m */,
 				77B6552218A3C2970007C71A /* Main.storyboard */,
-				77B6552518A3C2970007C71A /* ViewController.h */,
-				77B6552618A3C2970007C71A /* ViewController.m */,
 				77B6552818A3C2970007C71A /* Images.xcassets */,
 				77B6551718A3C2970007C71A /* Supporting Files */,
+				77B6554718A3FD7B0007C71A /* MainViewController.h */,
+				77B6554818A3FD7B0007C71A /* MainViewController.m */,
+				77B6554A18A4E9A60007C71A /* BrowserViewController.h */,
+				77B6554B18A4E9A60007C71A /* BrowserViewController.m */,
+				77A7AFC218ABB519002ED61E /* ChatViewController.h */,
+				77A7AFC318ABB519002ED61E /* ChatViewController.m */,
 			);
 			path = SISMAPP;
 			sourceTree = "<group>";
@@ -199,6 +304,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = axelardoin;
 				TargetAttributes = {
+					77B6550C18A3C2970007C71A = {
+						DevelopmentTeam = K5J6P6SD5Z;
+					};
 					77B6552D18A3C2970007C71A = {
 						TestTargetID = 77B6550C18A3C2970007C71A;
 					};
@@ -230,7 +338,11 @@
 			files = (
 				77B6552918A3C2970007C71A /* Images.xcassets in Resources */,
 				77B6551B18A3C2970007C71A /* InfoPlist.strings in Resources */,
+				773EAEE718A6AC4C00F9193C /* sounds in Resources */,
 				77B6552418A3C2970007C71A /* Main.storyboard in Resources */,
+				77059BF018C3B96F00925796 /* user.png in Resources */,
+				77059BD718C3B04700925796 /* GoogleMaps.bundle in Resources */,
+				77059BEE18C3B8F300925796 /* peer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +361,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B6552718A3C2970007C71A /* ViewController.m in Sources */,
 				77B6552118A3C2970007C71A /* AppDelegate.m in Sources */,
+				77B6554C18A4E9A60007C71A /* BrowserViewController.m in Sources */,
+				77A7AFC418ABB519002ED61E /* ChatViewController.m in Sources */,
+				77B6554F18A4E9B90007C71A /* MapViewController.m in Sources */,
 				77B6551D18A3C2970007C71A /* main.m in Sources */,
+				77B6554918A3FD7B0007C71A /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,10 +493,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/axel/IProjects/SISMAPP,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SISMAPP/SISMAPP-Prefix.pch";
 				INFOPLIST_FILE = "SISMAPP/SISMAPP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "28F6A960-6B34-41B9-B1CD-A574B18D0CF3";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +516,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/axel/IProjects/SISMAPP,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SISMAPP/SISMAPP-Prefix.pch";
 				INFOPLIST_FILE = "SISMAPP/SISMAPP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "28F6A960-6B34-41B9-B1CD-A574B18D0CF3";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +595,7 @@
 				77B6554118A3C2970007C71A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77B6554218A3C2970007C71A /* Build configuration list for PBXNativeTarget "SISMAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +604,7 @@
 				77B6554418A3C2970007C71A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

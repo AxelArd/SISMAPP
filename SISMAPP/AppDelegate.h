@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  SISMAPP
 //
-//  Created by Axel on 06/02/14.
+//  Created by Axel on 06/01/14.
 //  Copyright (c) 2014 axelardoin. All rights reserved.
 //
 
