@@ -126,7 +126,7 @@
         _advertiser = [[MCNearbyServiceAdvertiser alloc] initWithPeer:_peerID discoveryInfo:infos serviceType:@"alerte"];
         _advertiser.delegate=self;
         [_advertiser startAdvertisingPeer];
-        [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(restartTimer) userInfo:nil repeats:NO];
+        [NSTimer scheduledTimerWithTimeInterval:60 target:self selector:@selector(restartTimer) userInfo:nil repeats:NO];
         //NSLog(@"Next position update in 60s");
     }
 }

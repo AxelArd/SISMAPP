@@ -42,7 +42,7 @@
 		77B6554618A3C5AF0007C71A /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B6554518A3C5AF0007C71A /* MultipeerConnectivity.framework */; };
 		77B6554918A3FD7B0007C71A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6554818A3FD7B0007C71A /* MainViewController.m */; };
 		77B6554C18A4E9A60007C71A /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6554B18A4E9A60007C71A /* BrowserViewController.m */; };
-		77B6554F18A4E9B90007C71A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6554E18A4E9B90007C71A /* MapViewController.m */; };
+		77C621F118E5ED160045E652 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C621F018E5ED160045E652 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,8 +99,8 @@
 		77B6554818A3FD7B0007C71A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		77B6554A18A4E9A60007C71A /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
 		77B6554B18A4E9A60007C71A /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
-		77B6554D18A4E9B90007C71A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
-		77B6554E18A4E9B90007C71A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
+		77C621EF18E5ED160045E652 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		77C621F018E5ED160045E652 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,10 +210,10 @@
 		77B6551618A3C2970007C71A /* SISMAPP */ = {
 			isa = PBXGroup;
 			children = (
-				77B6554D18A4E9B90007C71A /* MapViewController.h */,
-				77B6554E18A4E9B90007C71A /* MapViewController.m */,
 				773EAEEE18A6D90900F9193C /* iPad */,
 				77B6551F18A3C2970007C71A /* AppDelegate.h */,
+				77C621EF18E5ED160045E652 /* MapViewController.h */,
+				77C621F018E5ED160045E652 /* MapViewController.m */,
 				77B6552018A3C2970007C71A /* AppDelegate.m */,
 				77B6552218A3C2970007C71A /* Main.storyboard */,
 				77B6552818A3C2970007C71A /* Images.xcassets */,
@@ -364,7 +364,7 @@
 				77B6552118A3C2970007C71A /* AppDelegate.m in Sources */,
 				77B6554C18A4E9A60007C71A /* BrowserViewController.m in Sources */,
 				77A7AFC418ABB519002ED61E /* ChatViewController.m in Sources */,
-				77B6554F18A4E9B90007C71A /* MapViewController.m in Sources */,
+				77C621F118E5ED160045E652 /* MapViewController.m in Sources */,
 				77B6551D18A3C2970007C71A /* main.m in Sources */,
 				77B6554918A3FD7B0007C71A /* MainViewController.m in Sources */,
 			);
